@@ -6,7 +6,7 @@
 
 [[`Paper(soon)`](#)] [[`Project(soon)`](#)] [[`BibTeX`](#Citation)]
 
-<p style="text-align: justify">
+<p align="justify">
 For high spatial resolution (HSR) remote sensing images, bitemporal supervised learning always dominates change detection using many pairwise labeled bitemporal images. However, it is very expensive and time-consuming to pairwise label large-scale bitemporal HSR remote sensing images. In this paper, we propose single-temporal supervised learning (STAR) for change detection from a new perspective of exploiting object changes in arbitrary image pairs as the supervisory signals. STAR enables us to train a high-accuracy change detector only using <b>unpaired</b> labeled images and generalize to paired bitemporal images. To evaluate the effectiveness of STAR, we design a simple yet effective change detector called ChangeStar, which can reuse any deep semantic segmentation architecture by the ChangeMixin module.
 The comprehensive experimental results show that ChangeStar outperforms the baseline with a large margin under single-temporal supervision and achieves superior performance under bitemporal supervision.
 </p>
