@@ -38,7 +38,7 @@ If you use STAR or ChangeStar in your research, please cite the following paper:
 ```text
 @inproceedings{zheng2021change,
   title={Change is Everywhere: Single-Temporal Supervised Object Change Detection for High Spatial Resolution Remote Sensing Imagery},
-  author={Zheng, Zhuo and Ma, Ailong and Liangpei Zhang and Zhong, Yanfei},
+  author={Zheng, Zhuo and Ma, Ailong and Zhang, Liangpei and Zhong, Yanfei},
   booktitle={Proceedings of the IEEE international conference on computer vision},
   pages={},
   year={2021}
