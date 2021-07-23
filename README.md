@@ -23,8 +23,8 @@ We hope that STAR will serve as a solid baseline and help ease future research i
 ---------------------
 ## News
 
-- 2020/07/23, The code will be released soon.
-- 2020/07/23, This paper is accepted by ICCV 2021.
+- 2021/07/23, The code will be released soon.
+- 2021/07/23, This paper is accepted by ICCV 2021.
 
 ## Features
 
