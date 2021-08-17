@@ -1,5 +1,5 @@
 
-<h3 align="center">Change is Everywhere <br>Single-Temporal Supervised Object Change Detection <br>for High Spatial Resolution Remote Sensing Imagery</h3>
+<h3 align="center">Change is Everywhere <br>Single-Temporal Supervised Object Change Detection <br>in Remote Sensing Imagery</h3>
 
 
 <h5 align="right">by <a href="http://zhuozheng.top/">Zhuo Zheng</a>, Ailong Ma, <a href="http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html">Liangpei Zhang</a> and <a href="http://rsidea.whu.edu.cn/">Yanfei Zhong</a></h5>
@@ -7,8 +7,7 @@
 [[`Paper`](https://arxiv.org/abs/2108.07002)] [[`BibTeX`](#Citation)]
 
 <p align="justify">
-For high spatial resolution (HSR) remote sensing images, bitemporal supervised learning always dominates change detection using many pairwise labeled bitemporal images. However, it is very expensive and time-consuming to pairwise label large-scale bitemporal HSR remote sensing images. In this paper, we propose single-temporal supervised learning (STAR) for change detection from a new perspective of exploiting object changes in arbitrary image pairs as the supervisory signals. STAR enables us to train a high-accuracy change detector only using <b>unpaired</b> labeled images and generalize to paired bitemporal images. To evaluate the effectiveness of STAR, we design a simple yet effective change detector called ChangeStar, which can reuse any deep semantic segmentation architecture by the ChangeMixin module.
-The comprehensive experimental results show that ChangeStar outperforms the baseline with a large margin under single-temporal supervision and achieves superior performance under bitemporal supervision.
+For high spatial resolution (HSR) remote sensing images, bitemporal supervised learning always dominates change detection using many pairwise labeled bitemporal images. However, it is very expensive and time-consuming to pairwise label large-scale bitemporal HSR remote sensing images. In this paper, we propose single-temporal supervised learning (STAR) for change detection from a new perspective of exploiting object changes in unpaired images as supervisory signals. STAR enables us to train a high-accuracy change detector only using \textbf{unpaired} labeled images and generalize to real-world bitemporal images. To evaluate the effectiveness of STAR, we design a simple yet effective change detector called ChangeStar, which can reuse any deep semantic segmentation architecture by the ChangeMixin module. The comprehensive experimental results show that ChangeStar outperforms the baseline with a large margin under single-temporal supervision and achieves superior performance under bitemporal supervision.
 </p>
 
 <div align="center">
@@ -37,7 +36,7 @@ We hope that STAR will serve as a solid baseline and help ease future research i
 If you use STAR or ChangeStar in your research, please cite the following paper:
 ```text
 @inproceedings{zheng2021change,
-  title={Change is Everywhere: Single-Temporal Supervised Object Change Detection for High Spatial Resolution Remote Sensing Imagery},
+  title={Change is Everywhere: Single-Temporal Supervised Object Change Detection in Remote Sensing Imagery},
   author={Zheng, Zhuo and Ma, Ailong and Zhang, Liangpei and Zhong, Yanfei},
   booktitle={Proceedings of the IEEE international conference on computer vision},
   pages={},
