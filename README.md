@@ -80,4 +80,8 @@ bash ./scripts/trainxView2/r50_farseg_changemixin_symmetry.sh
 bash ./scripts/bisup_levircd/r50_farseg_changemixin.sh
 ```
 
+## License
+ChangeStar is released under the [Apache License 2.0](https://github.com/Z-Zheng/ChangeStar/blob/master/LICENSE).
+
+Copyright (c) Zhuo Zheng. All rights reserved.
 
