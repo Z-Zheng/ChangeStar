@@ -28,33 +28,12 @@ We hope that STAR will serve as a solid baseline and help ease future research i
 - A clean codebase for weakly-supervised change detection.
 - Support both bitemporal and single-temporal supervised settings
 
-## <a name="Citation"></a>Citation
-If you use STAR or ChangeStar (FarSeg) in your research, please cite the following paper:
-```text
-@inproceedings{zheng2021change,
-  title={Change is Everywhere: Single-Temporal Supervised Object Change Detection for High Spatial Resolution Remote Sensing Imagery},
-  author={Zheng, Zhuo and Ma, Ailong and Liangpei Zhang and Zhong, Yanfei},
-  booktitle={Proceedings of the IEEE international conference on computer vision},
-  pages={},
-  year={2021}
-}
-
-@inproceedings{zheng2020foreground,
-  title={Foreground-Aware Relation Network for Geospatial Object Segmentation in High Spatial Resolution Remote Sensing Imagery},
-  author={Zheng, Zhuo and Zhong, Yanfei and Wang, Junjue and Ma, Ailong},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={4096--4105},
-  year={2020}
-}
-```
-
-
 
 ## Getting Started
 ### Install [EVer](https://github.com/Z-Zheng/ever)
 
 ```bash
-pip install --upgrade git+https://github.com/Z-Zheng/ever.git
+pip install ever-beta==0.2.2
 ```
 
 #### Requirements:
@@ -78,6 +57,26 @@ bash ./scripts/trainxView2/r50_farseg_changemixin_symmetry.sh
 ### Training and Evaluation under Bitemporal Supervision
 ```bash
 bash ./scripts/bisup_levircd/r50_farseg_changemixin.sh
+```
+
+## <a name="Citation"></a>Citation
+If you use STAR or ChangeStar (FarSeg) in your research, please cite the following paper:
+```text
+@inproceedings{zheng2021change,
+  title={Change is Everywhere: Single-Temporal Supervised Object Change Detection for High Spatial Resolution Remote Sensing Imagery},
+  author={Zheng, Zhuo and Ma, Ailong and Liangpei Zhang and Zhong, Yanfei},
+  booktitle={Proceedings of the IEEE international conference on computer vision},
+  pages={},
+  year={2021}
+}
+
+@inproceedings{zheng2020foreground,
+  title={Foreground-Aware Relation Network for Geospatial Object Segmentation in High Spatial Resolution Remote Sensing Imagery},
+  author={Zheng, Zhuo and Zhong, Yanfei and Wang, Junjue and Ma, Ailong},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4096--4105},
+  year={2020}
+}
 ```
 
 ## License
