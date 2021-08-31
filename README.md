@@ -63,7 +63,7 @@ bash ./scripts/bisup_levircd/r50_farseg_changemixin.sh
 If you use STAR or ChangeStar (FarSeg) in your research, please cite the following paper:
 ```text
 @inproceedings{zheng2021change,
-  title={Change is Everywhere: Single-Temporal Supervised Object Change Detection for High Spatial Resolution Remote Sensing Imagery},
+  title={Change is Everywhere: Single-Temporal Supervised Object Change Detection in Remote Sensing Imagery},
   author={Zheng, Zhuo and Ma, Ailong and Liangpei Zhang and Zhong, Yanfei},
   booktitle={Proceedings of the IEEE international conference on computer vision},
   pages={},
