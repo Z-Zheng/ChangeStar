@@ -33,7 +33,7 @@ We hope that STAR will serve as a solid baseline and help ease future research i
 ### Install [EVer](https://github.com/Z-Zheng/ever)
 
 ```bash
-pip install ever-beta==0.2.2
+pip install ever-beta==0.2.3
 ```
 
 #### Requirements:
