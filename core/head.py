@@ -54,14 +54,14 @@ def Conv3x3BNReLUs(in_channels,
                    drop_rate=0.):
     layers = [nn.Sequential(
         nn.Conv2d(in_channels, inner_channels, 3, 1, 1),
-        nn.ReLU(True),
         nn.BatchNorm2d(inner_channels),
+        nn.ReLU(True),
         DropConnect(drop_rate) if drop_rate > 0. else nn.Identity()
     )]
     layers += [nn.Sequential(
         nn.Conv2d(inner_channels, inner_channels, 3, 1, 1),
-        nn.ReLU(True),
         nn.BatchNorm2d(inner_channels),
+        nn.ReLU(True),
         DropConnect(drop_rate) if drop_rate > 0. else nn.Identity()
     ) for _ in range(num_convs - 1)]
 
