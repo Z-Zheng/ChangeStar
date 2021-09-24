@@ -17,6 +17,7 @@ We hope that STAR will serve as a solid baseline and help ease future research i
 ---------------------
 ## News
 
+- 2021/09/24, ChangeStar has been included in [microsoft/torchgeo](https://github.com/microsoft/torchgeo)!
 - 2021/08/28, The code is available.
 - 2021/07/23, The code will be released soon.
 - 2021/07/23, This paper is accepted by ICCV 2021.
