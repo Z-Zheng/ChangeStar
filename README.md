@@ -65,9 +65,9 @@ If you use STAR or ChangeStar (FarSeg) in your research, please cite the followi
 ```text
 @inproceedings{zheng2021change,
   title={Change is Everywhere: Single-Temporal Supervised Object Change Detection in Remote Sensing Imagery},
-  author={Zheng, Zhuo and Ma, Ailong and Liangpei Zhang and Zhong, Yanfei},
-  booktitle={Proceedings of the IEEE international conference on computer vision},
-  pages={},
+  author={Zheng, Zhuo and Ma, Ailong and Zhang, Liangpei and Zhong, Yanfei},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={15193--15202},
   year={2021}
 }
 
