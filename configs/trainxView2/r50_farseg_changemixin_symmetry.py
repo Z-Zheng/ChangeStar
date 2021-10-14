@@ -49,7 +49,7 @@ config = dict(
                 symmetry_loss=True,
                 drop_rate=0.2,
                 t1t2=True,
-                t2t2=True
+                t2t1=True
             ),
             loss_config=dict(
                 change=dict(
