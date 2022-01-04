@@ -46,7 +46,7 @@ pip install ever-beta==0.2.3
 
 2. Create soft link
 ```bash
-ln -s </path/to/xView2> ./xView2
+ln -s </path/to/xView2> ./xview2
 ln -s </path/to/LEVIR-CD> ./LEVIR-CD
 ```
 
