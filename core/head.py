@@ -36,7 +36,7 @@ class DropConnect(nn.Module):
 
 def get_detector(name, **kwargs):
     if 'convs' == name:
-        return Conv3x3BNReLUs(kwargs['in_channels'],
+        return Conv3x3ReLUBNs(kwargs['in_channels'],
                               kwargs['inner_channels'],
                               kwargs['out_channels'],
                               kwargs['scale'],
@@ -46,7 +46,7 @@ def get_detector(name, **kwargs):
     raise ValueError(f'{name} is not supported.')
 
 
-def Conv3x3BNReLUs(in_channels,
+def Conv3x3ReLUBNs(in_channels,
                    inner_channels,
                    out_channels,
                    scale,
@@ -54,14 +54,14 @@ def Conv3x3BNReLUs(in_channels,
                    drop_rate=0.):
     layers = [nn.Sequential(
         nn.Conv2d(in_channels, inner_channels, 3, 1, 1),
-        nn.BatchNorm2d(inner_channels),
         nn.ReLU(True),
+        nn.BatchNorm2d(inner_channels),
         DropConnect(drop_rate) if drop_rate > 0. else nn.Identity()
     )]
     layers += [nn.Sequential(
         nn.Conv2d(inner_channels, inner_channels, 3, 1, 1),
-        nn.BatchNorm2d(inner_channels),
         nn.ReLU(True),
+        nn.BatchNorm2d(inner_channels),
         DropConnect(drop_rate) if drop_rate > 0. else nn.Identity()
     ) for _ in range(num_convs - 1)]
 

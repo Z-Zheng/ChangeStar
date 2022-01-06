@@ -46,7 +46,6 @@ def evaluate_levircd(self, test_dataloader, config=None):
 
 
 if __name__ == '__main__':
-    # torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = True
     SEED = 2333
     random.seed(SEED)
