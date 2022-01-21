@@ -28,7 +28,7 @@ class LEVIRCD(Dataset):
             blob = self.transforms(**dict(image=imgs, mask=gt))
             imgs = blob['image']
             gt = blob['mask']
-
+        gt[gt>0] = 1
         return imgs, dict(change=gt, image_filename=os.path.basename(self.A_image_fps[idx]))
 
     def __len__(self):
