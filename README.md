@@ -81,7 +81,7 @@ If you use STAR or ChangeStar (FarSeg) in your research, please cite the followi
 ```
 
 ## License
-ChangeStar is released under the [Apache License 2.0](https://github.com/Z-Zheng/ChangeStar/blob/master/LICENSE).
+This code is released under the [Apache License 2.0](https://github.com/Z-Zheng/ChangeStar/blob/master/LICENSE).
 
 Copyright (c) Zhuo Zheng. All rights reserved.
 
